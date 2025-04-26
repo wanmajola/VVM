@@ -63,6 +63,10 @@ ol.list-style li::marker {
   margin-bottom: 0;
 }
 
+.mb-16 {
+  object-fit: cover;
+}
+
 @media (min-width: 768px) {
   .container,
 .container-fluid {
