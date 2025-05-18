@@ -573,11 +573,11 @@ Helpers
 }
 
 .color-sec {
-  color: #2e5b5b !important;
+  color: #f4a21b !important;
 }
 
 .bg-sec {
-  background-color: #2e5b5b !important;
+  background-color: #f4a21b !important;
 }
 
 .color-white {
@@ -653,21 +653,21 @@ Helpers
 }
 
 .gradient-stroke-text {
-  background: linear-gradient(90deg, rgba(253, 220, 139, 0.95) 0%, rgba(40, 208, 232, 0.95) 100%);
+  background: linear-gradient(90deg, rgba(253, 220, 139, 0.95) 0%, rgba(40, 206, 232, 0.178) 100%);
   -webkit-background-clip: text;
   -webkit-text-stroke: 2px transparent;
   color: #f4a21b ;
 }
 
 .gradient-stroke-text-medium-black {
-  background: linear-gradient(90deg, rgba(253, 220, 139, 0.95) 0%, rgba(40, 208, 232, 0.95) 100%);
+  background: linear-gradient(90deg, rgba(253, 220, 139, 0.95) 0%, rgba(40, 206, 232, 0.178) 100%);
   -webkit-background-clip: text;
   -webkit-text-stroke: 2px transparent;
   color: #f4a21b ;
 }
 
 .bg-gradient {
-  background: linear-gradient(90deg, rgba(253, 220, 139, 0.95) 0%, rgba(40, 208, 232, 0.95) 100%);
+  background: linear-gradient(90deg, rgba(253, 220, 139, 0.95) 0%, rgba(40, 206, 232, 0.178) 100%);
 }
 
 .light-shadow {
@@ -2109,7 +2109,7 @@ Elements
   bottom: 0;
   left: 0;
   z-index: -1;
-  background: linear-gradient(90deg, #f4a21b 0%, #2e5b5b 100%);
+  background: linear-gradient(90deg, #f4a21b 0%, #f4a21b 100%);
   transform: translateX(-100%);
   box-sizing: border-box;
   transition: 0.5s ease-in-out;
@@ -3409,7 +3409,7 @@ footer .footer-widget ul li a i {
   transition: all 0.5s ease-in-out;
 }
 .process .text-block .block.active {
-  border-color: #28D0E8;
+  border-color: #2e5b5b;
 }
 .process .text-block .block.active .title {
   color: #fafafa;
