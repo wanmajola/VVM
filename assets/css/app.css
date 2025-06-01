@@ -3397,6 +3397,16 @@ footer .footer-widget ul li a i {
   transition: all 0.5s ease-in-out;
 }
 
+
+.brands-slider p {
+  width: 100%;
+  font-size: 24px;
+}
+
+.loh {
+  width: 200px;
+}
+
 .title span {
     padding-top: 10px;
     margin-top: 10px;
