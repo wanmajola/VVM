@@ -3720,6 +3720,10 @@ footer .footer-widget ul li a i {
   gap: clamp(12px, 0.83vw, 20px);
 }
 
+#more {
+  width: max-content;
+}
+
 .contact-area {
   position: relative;
 }
