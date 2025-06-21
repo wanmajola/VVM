@@ -3642,6 +3642,50 @@ footer .footer-widget ul li a i {
   font-size: clamp(10px, 0.73vw, 17px);
 }
 
+.content {
+  height: 160px;
+  overflow: hidden;
+  transition: height 0.3s ease; 
+}
+
+.content.expanded {
+  height: auto; 
+  transition: height 0.3s ease; 
+}
+
+.toggle-button, .toggle-butt, .trigger {
+  cursor: pointer;
+}
+
+#features {
+  max-height: 0;
+  padding: 5px;
+  overflow: hidden;
+  transition: 0.7s;
+  transition: max-height 0.5s ease-out;
+  
+}
+
+#features.show {
+  transition: 0.7s;
+  max-height: max-content; 
+  border-bottom: solid 1px #eaeaec;
+}
+
+
+/* Approach 2: Using ::before for broader compatibility */
+.chevron-before {
+  list-style-type: none; /* Remove default bullet */
+}
+.chevron-before li::before {
+  content: '›'; /* Unicode chevron (U+203A) for a polished look */
+  color: #FDDC8B;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-weight: bold;
+}
+
 .pricing .pricing-block {
   position: relative;
   padding: clamp(20px, 1.25vw, 32px) clamp(16px, 1.25vw, 32px);
