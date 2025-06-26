@@ -3657,6 +3657,10 @@ footer .footer-widget ul li a i {
   cursor: pointer;
 }
 
+.mp {
+  height: 0px;
+}
+
 #features {
   max-height: 0;
   padding: 5px;
