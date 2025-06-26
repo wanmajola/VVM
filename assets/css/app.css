@@ -3642,13 +3642,13 @@ footer .footer-widget ul li a i {
   font-size: clamp(10px, 0.73vw, 17px);
 }
 
-.content {
+.cont {
   height: 160px;
   overflow: hidden;
   transition: height 0.3s ease; 
 }
 
-.content.expanded {
+.cont.expanded {
   height: auto; 
   transition: height 0.3s ease; 
 }
